@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FATFS_V3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FATFS_V3">
+				<Option output="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/FATFS_V3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/CORE"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/exfuns"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/KEY"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/LCD"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/LED"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/SDIO"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/SPI"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/W25QXX"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/MALLOC"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/SYSTEM/delay"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/SYSTEM/sys"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/SYSTEM/usart"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USMART"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 FATFS_V3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FATFS_V3/fast">
+				<Option output="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/FATFS_V3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/CORE"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/exfuns"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/KEY"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/LCD"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/LED"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/SDIO"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/SPI"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/W25QXX"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/MALLOC"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/SYSTEM/delay"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/SYSTEM/sys"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/SYSTEM/usart"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER"/>
+					<Add directory="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USMART"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 FATFS_V3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/CMakeLists.txt">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/CORE/core_cm3.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/CORE/core_cm3.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/CORE/startup_stm32f10x_hd.s">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/doc/img/app1.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/doc/img/app2.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/doc/img/app3.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/doc/img/app4.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/exfuns/exfuns.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/exfuns/exfuns.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/exfuns/fattester.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/exfuns/fattester.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/exfuns/mycc936.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/fattester.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/fattester.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/diskio.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/diskio.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/ff.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/ff.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/ffconf.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/integer.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/option/cc932.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/option/cc936.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/option/cc949.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/option/cc950.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/option/ccsbcs.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/option/mycc936.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/option/syscall.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/FATFS/src/option/unicode.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/KEY/key.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/KEY/key.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/LCD/font.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/LCD/lcd.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/LCD/lcd.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/LED/led.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/LED/led.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/SDIO/sdio_sdcard.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/SDIO/sdio_sdcard.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/SPI/spi.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/SPI/spi.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/W25QXX/w25qxx.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/HARDWARE/W25QXX/w25qxx.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/MALLOC/malloc.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/MALLOC/malloc.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/README.TXT">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/misc.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_adc.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_bkp.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_can.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_cec.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_crc.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_dac.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_dbgmcu.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_dma.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_exti.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_flash.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_fsmc.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_gpio.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_i2c.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_iwdg.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_pwr.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_rcc.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_rtc.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_sdio.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_spi.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_tim.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_usart.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/inc/stm32f10x_wwdg.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/misc.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_adc.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_bkp.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_can.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_cec.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_crc.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_dac.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_dbgmcu.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_dma.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_exti.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_flash.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_fsmc.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_gpio.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_i2c.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_iwdg.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_pwr.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_rcc.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_rtc.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_sdio.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_spi.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_tim.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_usart.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/STM32F10x_FWLib/src/stm32f10x_wwdg.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/SYSTEM/delay/delay.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/SYSTEM/delay/delay.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/SYSTEM/sys/sys.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/SYSTEM/sys/sys.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/SYSTEM/usart/usart.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/SYSTEM/usart/usart.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/FATFS.map">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/FATFS.uvguix.Administrator">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/FATFS.uvguix.garyball">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/FATFS.uvoptx">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/FATFS.uvprojx">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/JLinkSettings.ini">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/JY901.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/main.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/startup_stm32f10x_hd.lst">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/stm32f10x.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/stm32f10x_conf.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/stm32f10x_it.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/stm32f10x_it.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/system_stm32f10x.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USER/system_stm32f10x.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USMART/readme.txt">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USMART/usmart.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USMART/usmart.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USMART/usmart_config.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USMART/usmart_str.c">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/USMART/usmart_str.h">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/keilkilll.bat">
+			<Option target="FATFS_V3"/>
+		</Unit>
+		<Unit filename="/Users/garyball/Desktop/ZJU_bs/大三下/STM32小学期/视频中FATFS测试工程-战舰V3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

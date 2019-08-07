@@ -1,0 +1,143 @@
+cmake_minimum_required(VERSION 3.12)
+project(FATFS_V3)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(CORE)
+include_directories(FATFS)
+include_directories(FATFS/exfuns)
+include_directories(FATFS/src)
+include_directories(HARDWARE/KEY)
+include_directories(HARDWARE/LCD)
+include_directories(HARDWARE/LED)
+include_directories(HARDWARE/SDIO)
+include_directories(HARDWARE/SPI)
+include_directories(HARDWARE/W25QXX)
+include_directories(MALLOC)
+include_directories(STM32F10x_FWLib/inc)
+include_directories(SYSTEM/delay)
+include_directories(SYSTEM/sys)
+include_directories(SYSTEM/usart)
+include_directories(USER)
+include_directories(USMART)
+
+add_executable(FATFS_V3
+        CORE/core_cm3.c
+        CORE/core_cm3.h
+        CORE/startup_stm32f10x_hd.s
+        FATFS/doc/img/app1.c
+        FATFS/doc/img/app2.c
+        FATFS/doc/img/app3.c
+        FATFS/doc/img/app4.c
+        FATFS/exfuns/exfuns.c
+        FATFS/exfuns/exfuns.h
+        FATFS/exfuns/fattester.c
+        FATFS/exfuns/fattester.h
+        FATFS/exfuns/mycc936.c
+        FATFS/src/option/cc932.c
+        FATFS/src/option/cc936.c
+        FATFS/src/option/cc949.c
+        FATFS/src/option/cc950.c
+        FATFS/src/option/ccsbcs.c
+        FATFS/src/option/mycc936.c
+        FATFS/src/option/syscall.c
+        FATFS/src/option/unicode.c
+        FATFS/src/diskio.c
+        FATFS/src/diskio.h
+        FATFS/src/ff.c
+        FATFS/src/ff.h
+        FATFS/src/ffconf.h
+        FATFS/src/integer.h
+        FATFS/fattester.c
+        FATFS/fattester.h
+        HARDWARE/KEY/key.c
+        HARDWARE/KEY/key.h
+        HARDWARE/LCD/font.h
+        HARDWARE/LCD/lcd.c
+        HARDWARE/LCD/lcd.h
+        HARDWARE/LED/led.c
+        HARDWARE/LED/led.h
+        HARDWARE/SDIO/sdio_sdcard.c
+        HARDWARE/SDIO/sdio_sdcard.h
+        HARDWARE/SPI/spi.c
+        HARDWARE/SPI/spi.h
+        HARDWARE/W25QXX/w25qxx.c
+        HARDWARE/W25QXX/w25qxx.h
+        MALLOC/malloc.c
+        MALLOC/malloc.h
+        STM32F10x_FWLib/inc/misc.h
+        STM32F10x_FWLib/inc/stm32f10x_adc.h
+        STM32F10x_FWLib/inc/stm32f10x_bkp.h
+        STM32F10x_FWLib/inc/stm32f10x_can.h
+        STM32F10x_FWLib/inc/stm32f10x_cec.h
+        STM32F10x_FWLib/inc/stm32f10x_crc.h
+        STM32F10x_FWLib/inc/stm32f10x_dac.h
+        STM32F10x_FWLib/inc/stm32f10x_dbgmcu.h
+        STM32F10x_FWLib/inc/stm32f10x_dma.h
+        STM32F10x_FWLib/inc/stm32f10x_exti.h
+        STM32F10x_FWLib/inc/stm32f10x_flash.h
+        STM32F10x_FWLib/inc/stm32f10x_fsmc.h
+        STM32F10x_FWLib/inc/stm32f10x_gpio.h
+        STM32F10x_FWLib/inc/stm32f10x_i2c.h
+        STM32F10x_FWLib/inc/stm32f10x_iwdg.h
+        STM32F10x_FWLib/inc/stm32f10x_pwr.h
+        STM32F10x_FWLib/inc/stm32f10x_rcc.h
+        STM32F10x_FWLib/inc/stm32f10x_rtc.h
+        STM32F10x_FWLib/inc/stm32f10x_sdio.h
+        STM32F10x_FWLib/inc/stm32f10x_spi.h
+        STM32F10x_FWLib/inc/stm32f10x_tim.h
+        STM32F10x_FWLib/inc/stm32f10x_usart.h
+        STM32F10x_FWLib/inc/stm32f10x_wwdg.h
+        STM32F10x_FWLib/src/misc.c
+        STM32F10x_FWLib/src/stm32f10x_adc.c
+        STM32F10x_FWLib/src/stm32f10x_bkp.c
+        STM32F10x_FWLib/src/stm32f10x_can.c
+        STM32F10x_FWLib/src/stm32f10x_cec.c
+        STM32F10x_FWLib/src/stm32f10x_crc.c
+        STM32F10x_FWLib/src/stm32f10x_dac.c
+        STM32F10x_FWLib/src/stm32f10x_dbgmcu.c
+        STM32F10x_FWLib/src/stm32f10x_dma.c
+        STM32F10x_FWLib/src/stm32f10x_exti.c
+        STM32F10x_FWLib/src/stm32f10x_flash.c
+        STM32F10x_FWLib/src/stm32f10x_fsmc.c
+        STM32F10x_FWLib/src/stm32f10x_gpio.c
+        STM32F10x_FWLib/src/stm32f10x_i2c.c
+        STM32F10x_FWLib/src/stm32f10x_iwdg.c
+        STM32F10x_FWLib/src/stm32f10x_pwr.c
+        STM32F10x_FWLib/src/stm32f10x_rcc.c
+        STM32F10x_FWLib/src/stm32f10x_rtc.c
+        STM32F10x_FWLib/src/stm32f10x_sdio.c
+        STM32F10x_FWLib/src/stm32f10x_spi.c
+        STM32F10x_FWLib/src/stm32f10x_tim.c
+        STM32F10x_FWLib/src/stm32f10x_usart.c
+        STM32F10x_FWLib/src/stm32f10x_wwdg.c
+        SYSTEM/delay/delay.c
+        SYSTEM/delay/delay.h
+        SYSTEM/sys/sys.c
+        SYSTEM/sys/sys.h
+        SYSTEM/usart/usart.c
+        SYSTEM/usart/usart.h
+        USER/FATFS.map
+        USER/FATFS.uvguix.Administrator
+        USER/FATFS.uvguix.garyball
+        USER/FATFS.uvoptx
+        USER/FATFS.uvprojx
+        USER/JLinkSettings.ini
+        USER/JY901.h
+        USER/main.c
+        USER/startup_stm32f10x_hd.lst
+        USER/stm32f10x.h
+        USER/stm32f10x_conf.h
+        USER/stm32f10x_it.c
+        USER/stm32f10x_it.h
+        USER/system_stm32f10x.c
+        USER/system_stm32f10x.h
+        USMART/readme.txt
+        USMART/usmart.c
+        USMART/usmart.h
+        USMART/usmart_config.c
+        USMART/usmart_str.c
+        USMART/usmart_str.h
+        CMakeLists.txt
+        keilkilll.bat
+        README.TXT)
